@@ -1,51 +1,430 @@
+<!-- /*
+* Template Name: Property
+* Template Author: Untree.co
+* Template URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Rose Nowak</title>
-	<style>
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
-}
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Untree.co" />
+  <link rel="shortcut icon" href="favicon.png" />
 
-.navbar a {
-    float: right;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    padding: 24px 16px;
-    text-decoration: none;
-}
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap5" />
 
-.navbar a:hover {
-    background-color: red;
-}
- .main {
- 	padding-top: 100px;
- 	font-size:50;
-	text-align:center;
-	
- }
- .blurb {
- 	font-size:20;
-	color:gray;
-	text-align:center;
- }
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-}	
-</style>
+  <link rel="stylesheet" href="fonts/icomoon/style.css" />
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+  <link rel="stylesheet" href="css/tiny-slider.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <title>
+    Property &mdash; Free Bootstrap 5 Website Template by Untree.co
+  </title>
 </head>
-<body style = "background-color:powderblue;">
-<div class="navbar">
-	<a href = "resume.html">Resume</a>
-	<a href = "projects.html">Projects</a>
-	<a href = "about.html">About</a>
-  	<a href = "index.html">Home</a>
-  
-</div>
-<h1 class = "main">ROSE NOWAK</h1>
-<h2 class = "blurb">University of Illinois at Urbana-Champaign<br/>B.S. Computer Science</h2>
 
+<body>
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <nav class="site-nav">
+    <div class="container">
+      <div class="menu-bg-wrap">
+        <div class="site-navigation">
+          <a href="index.html" class="logo m-0 float-start">Wawrzonek Drzewka Owocowe</a>
+
+          <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="has-children">
+              <a href="our_product.html">Our Product</a>
+              <ul class="dropdown">
+                <li class="has-children">
+                  <a href="fruit_trees.html">Fruit Trees</a>
+                  <ul class="dropdown">
+                    <li><a href="apples.html">Apple</a></li>
+                    <li><a href="pears.html">Pear</a></li>
+                    <li><a href="peaches.html">Peach</a></li>
+                    <li><a href="plums.html">Plum</a></li>
+                    <li><a href="apricots.html">Apricot</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="berries.html">Berries</a>
+                  <ul class="dropdown">
+                    <li><a href="currants.html">Currant</a></li>
+                    <li><a href="gooseberry.html">Gooseberry</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="services.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+          <a href="#"
+            class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+            data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-slide">
+      <div class="img overlay" style="background-image: url('images/hero_bg_3.jpg')"></div>
+      <div class="img overlay" style="background-image: url('images/hero_bg_2.jpg')"></div>
+      <div class="img overlay" style="background-image: url('images/hero_bg_1.jpg')"></div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-9 text-center">
+          <h1 class="heading" data-aos="fade-up">
+            Your favorite family fruit nursery
+          </h1>
+          <h1 class="heading" data-aos="fade-up">
+            Preorder now for the 2024 shipping season!
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row mb-5 align-items-center">
+        <div class="col-lg-6">
+          <h2 class="font-weight-bold text-primary heading">
+            Our Nursery Selection
+          </h2>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <p>
+            <a href="our_product.html" target="_blank" class="btn btn-primary text-white py-3 px-4">View full nursery
+              selection</a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="property-slider-wrap">
+            <div class="property-slider">
+              <div class="property-item">
+                <a href="apples.html" class="img">
+                  <img src="images/apple.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Apples</span>
+
+                    <a href="apples.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="pears.html" class="img">
+                  <img src="images/pear.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Pears</span>
+
+                    <a href="pears.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="plums.html" class="img">
+                  <img src="images/plum.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Plums</span>
+
+                    <a href="plums.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="cherries.html" class="img">
+                  <img src="images/cherry.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Cherries</span>
+
+                    <a href="cherries.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="peaches.html" class="img">
+                  <img src="images/peach.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Peaches</span>
+
+                    <a href="peaches.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="currants.html" class="img">
+                  <img src="images/currant.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Currants</span>
+
+
+                    <a href="currants.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="gooseberry.html" class="img">
+                  <img src="images/gooseberry.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Gooseberry</span>
+                    <a href="gooseberry.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="apricots.html" class="img">
+                  <img src="images/apricot.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div>
+                    <span class="city d-block mb-3">Apricot</span>
+                    <a href="apricots.html" class="btn btn-primary py-2 px-3">View varieties</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+            </div>
+
+            <div id="property-nav" class="controls" tabindex="0" aria-label="Carousel Navigation">
+              <span class="prev" data-controls="prev" aria-controls="property" tabindex="-1">Prev</span>
+              <span class="next" data-controls="next" aria-controls="property" tabindex="-1">Next</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="features-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="box-feature">
+            <i class="material-icons">park</i>
+            <h3 class="mb-3">Our Selections</h3>
+            <p>
+              We take pride in the quality of our plants, see what we offer
+            </p>
+            <p><a href="#" class="learn-more">Learn More</a></p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+          <div class="box-feature">
+            <i class="material-icons">yard</i>
+            <h3 class="mb-3">Growing Guide</h3>
+            <p>
+              Learn how best to care for your plants
+            </p>
+            <p><a href="#" class="learn-more">Learn More</a></p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="box-feature">
+            <i class="material-icons">email</i>
+            <h3 class="mb-3">Help Center</h3>
+            <p>
+              Your center for any questions you may have
+            </p>
+            <p><a href="#" class="learn-more">Learn More</a></p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+          <div class="box-feature">
+            <i class="material-icons">local_shipping</i>
+            <h3 class="mb-3">Wholesale</h3>
+            <p>
+              We sell wholesale! Most of our order consist of bulk orders
+            </p>
+            <p><a href="#" class="learn-more">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Contact</h3>
+            <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+            <ul class="list-unstyled links">
+              <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+              <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+              <li>
+                <a href="mailto:info@mydomain.com">info@mydomain.com</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Sources</h3>
+            <ul class="list-unstyled float-start links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Vision</a></li>
+              <li><a href="#">Mission</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+            <ul class="list-unstyled float-start links">
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Creative</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Links</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Our Vision</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+
+            <ul class="list-unstyled social">
+              <li>
+                <a href="#"><span class="icon-instagram"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-twitter"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-linkedin"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-pinterest"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-dribbble"></span></a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <!-- 
+              **==========
+              NOTE: 
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              **==========
+            -->
+
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            . All Rights Reserved. &mdash; Designed with love by
+            <a href="https://untree.co">Untree.co</a>
+            <!-- License information: https://untree.co/license/ -->
+          </p>
+          <div>
+            Distributed by
+            <a href="https://themewagon.com/" target="_blank">themewagon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.site-footer -->
+
+  <!-- Preloader -->
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/custom.js"></script>
 </body>
+
 </html>
